@@ -107,13 +107,16 @@ img {
 
 a:link {
   color: #00994c;
+  text-decoration: none; 
 }
 
 a:visited {
   color: #888888;
+  text-decoration: none; 
 }
 
 a:hover {
-	color:  #888888;
+	color:  #BBBBBB;
+	text-decoration: none; 
   cursor: pointer;
 }
