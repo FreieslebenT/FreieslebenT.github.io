@@ -5,31 +5,76 @@
     <title>Timo Freiesleben Website</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-		<img src="images/Bild.PNG" border="0" alt="Logo" width=20%></head>
+		
 <body><div align="center">
+<h1>Timo Freiesleben</h1>
 	<nav><br>
-					<button type="button" id="start" onclick="window.location.href='index.html';">About Me</button>
-					<button type="button" id="research" onclick="window.location.href='research.html';">Research</button>
+					<button type="button" id="start" onclick="window.location.href='index.html';">About</button>
+					<button type="button" id="research" autofocus onclick="window.location.href='research.html';">Research</button>
 					<button type="button" id="teaching" onclick="window.location.href='teaching.html';">Teaching</button>
 					<button type="button" id="contact" onclick="window.location.href='contact.html';">Contact</button>
           </nav>
  </div>
   	<main id="main">
-	<h1>Research</h1>
-	<h2>Machine learning (ML) and artificial intelligence (AI) are fields whose foundations are still being built.
-	 My goal in conducting research is to lay as solid foundations as possible so that ML and AI are reliable tools that benefit rather than harm society. 
+	<h2>
+	While practical applications of machine learning are ubiquitous, the theoretical and philosophical foundations of machine learning are lagging behind.
+	Core concepts like interpretability, generalization, robustness, uncertainty, overfitting, benchmarks, etc. are often only vaguely defined.
+	However, without precise definitions and conceptual foundations, machine learning will remain engineering and not become a real science.
+	Worse still, it will not become a reliable tool for either scientific or industrial applications.
+	<br><br>
+	The goal of my research is to address these fundamental challenges.
 	 My approach combines philosophical conceptual analysis with rigourous mathematical modeling. 
-	 I consider myself a mediator between disciplines: I am a philosopher close to AI practice, and a philosophically inspired AI researcher;
-	 but faculty lines are so 20th century anyway.
-	 </br></br>
-	 I am particularly interested in the use of AI in the sciences and as a new tool in modeling natural processes. 
-	 I am concerned with both the opportunities for gaining new insights and the dangers 
-	 of drawing wrong conclusions with little causal understanding. 
-	 Other topics I enjoy working on are algorithmic recourse, adversarial examples and robustness. 
-	At the moment, I am wrapping my head around ML auditing, algorithmic fairness and the ethics of AI.
-	</br></br>
-	I am too lazy to keep an up-to-date list of my papers here, but you can find an always up-to-date list of my publications in
+	 I consider myself a mediator between disciplines: I am a philosopher close to machine learning practice, and a philosophically inclined AI researcher;
+	 but faculty lines are so 20th century anyway.	You can find all my research on
 	my <a href='https://scholar.google.com/citations?user=BUvMXaAAAAAJ&hl=en'  target="_blank">Google Scholar profile</a>. 
+	 </br></br>
+	 The research projects that have been closest to my heart so far have been:
+	 	<ul>
+		<li> <a href='https://ml-science-book.com/' target="_blank"><b>Supervised Machine Learning for Science:</b></a> In this book, 
+		<a href='https://christophmolnar.com/' target="_blank">Christoph Molnar</a> and I explore how machine learning is changing science, what kinds of scientific questions it does (not) allow to address, and how we can integrate 
+		domain knowledge, uncertainty quantification, and interpretability to make machine learning a proper scientific tool.  
+		<br>
+		<img src="images/book.jpg" id='scholarIm' width=50% border="0" onclick="window.open('https://ml-science-book.com/','_blank');">
+		<br>
+		</li>
+		<li> <a href='https://arxiv.org/abs/2306.04292' target="_blank"><b>Dear XAI Community, We Need to Talk! :</b></a> In this paper,
+		<a href='https://gunnarkoenig.com/' target="_blank">Gunnar König</a> and I discuss fundamental misconceptions in current XAI research. For example, many XAI techniques are proposed without a clear purpose.
+		We think that if these misconceptions are not resolved, XAI will not become a mainstay in machine learning.	
+				<br>
+		<img src="images/dear.png" id='scholarIm' width=50% border="0" onclick="window.open('https://link.springer.com/chapter/10.1007/978-3-031-44064-9_3','_blank');">
+		<br>
+		</li>
+		<li> <a href='https://link.springer.com/article/10.1007/s11023-024-09691-z?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240715&utm_content=10.1007%2Fs11023-024-09691-z' target="_blank"><b>
+		Scientific Inference with Interpretable Machine Learning :</b></a> In this paper, 
+		<a href='https://gunnarkoenig.com/' target="_blank">Gunnar König</a>, <a href='https://christophmolnar.com/' target="_blank">Christoph Molnar</a>
+, <a href='https://mlcolab.org/resources/team/lvaro-tejero-cantero' target="_blank">Alvaro Tejero-Cantero</a> and I discuss how interpretable machine learning can be turned into a tool for scientific inference. 
+We show that properties that were represented by interpretable parameters in traditional models 
+parameters, can be represented in machine learning models by summary statistics of model behaviour, we call them property descriptions.
+		<br>
+		<img src="images/inference.png" id='scholarIm' width=50% border="0" onclick="window.open('https://link.springer.com/article/10.1007/s11023-024-09691-z?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240715&utm_content=10.1007%2Fs11023-024-09691-z','_blank');">
+		<br>
+</li>
+		<li> <a href='https://link.springer.com/article/10.1007/s11229-023-04334-9' target="_blank"><b>
+		A Theory of Robustness in Machine Learning :</b></a> In this paper, 
+		<a href='https://sites.google.com/view/thomas-grote/startseite' target="_blank">Thomas Grote</a> and I show how different conceptions of robustness in machine learning can be unified. We describe robustess as the
+relative stability of a robustness target with respect to specific interventions on a modifier.	
+		<br>
+		<img src="images/robustness.png" id='scholarIm' width=50% border="0" onclick="window.open('https://link.springer.com/article/10.1007/s11229-023-04334-9','_blank');">
+		<br>
+</li>
+		<li> <a href='https://ojs.aaai.org/index.php/AAAI/article/view/26398' target="_blank"><b>
+		Improvement-focused causal recourse :</b></a> In this paper, 
+		<a href='https://gunnarkoenig.com/' target="_blank">Gunnar König</a>, <a href='https://scholar.google.com/citations?user=15GNzKcAAAAJ&hl=de' target="_blank">Moritz Grosse-Wentrup</a>  and 
+I argue that the
+current implementations of counterfactual explanations show users how they can trick the machine learning system. We show how causal knowledge helps to avoid this by 
+giving users meaningful recommendations for action that improve their qualification.	
+ 		<br>
+		<img src="images/improvement.png" id='scholarIm' width=50% border="0" onclick="window.open('https://ojs.aaai.org/index.php/AAAI/article/view/26398','_blank');">
+		<br>
+ </li>
+	</ul>
+	</br></br>
+
 	
 	</h2>
 		<br>
@@ -39,7 +84,7 @@
 				<a href='https://scholar.google.com/citations?user=BUvMXaAAAAAJ&hl=en' target="_blank">
 				google scholar
 				</a>
-				<img src="images/scholar.png" id='scholarIm' width=2% border="0" onclick="window.open('https://scholar.google.com/citations?user=BUvMXaAAAAAJ&hl=en','_blank');">
+				<img src="images/scholar.png" id='scholarIm' width=4% border="0" onclick="window.open('https://scholar.google.com/citations?user=BUvMXaAAAAAJ&hl=en','_blank');">
 				</div>
 		</h3>
 

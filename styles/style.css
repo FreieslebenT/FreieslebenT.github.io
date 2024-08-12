@@ -50,8 +50,13 @@ button:hover {
 	cursor: pointer;
 }
 
+
 #scholarIm:hover{
 	cursor: pointer;
+}
+
+button:focus{
+	background-color:  #888888;
 }
 
 iframe{
